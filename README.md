@@ -117,31 +117,30 @@ CNNs-to-Vision-Transformers/
 
 ## Examples and Explanations
 
-### LeNet \\[paper\\](https://ieeexplore.ieee.org/document/726791) (1998)
-### LeNet [paper](https://ieeexplore.ieee.org/document/726791) (1998)
+### LeNet [[paper]](https://ieeexplore.ieee.org/document/726791) (1998)
 
 The LeNet model is a classic convolutional neural network for image classification. It was one of the first successful applications of CNNs and is widely used for educational purposes.
 
-### AlexNet (2012)
+### AlexNet [[paper]](https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) (2012)
 
 The AlexNet model is a deep convolutional neural network for image classification. It was one of the first models to achieve significant performance improvements on the ImageNet dataset.
 
-### Network in Network (NIN) (2013)
+### Network in Network (NIN) [[paper]](https://arxiv.org/abs/1312.4400) (2013)
 
 The Network in Network (NIN) model replaces traditional convolutional layers with micro neural networks, which helps to improve the model's performance and efficiency.
 
-### VGG (2014)
+### VGG [[paper]](https://arxiv.org/abs/1409.1556) (2014)
 
 The VGG model is a deep convolutional neural network with very small convolutional filters. It is known for its simplicity and effectiveness in image classification tasks.
 
-### AllConvNet (2015)
+### AllConvNet [[paper]](https://arxiv.org/abs/1412.6806) (2015)
 
 The AllConvNet model is an all convolutional network for image classification. It replaces traditional fully connected layers with convolutional layers, making the network more efficient and easier to train.
 
-### ResNet (2015)
+### ResNet [[paper]](https://arxiv.org/abs/1512.03385) (2015)
 
 The ResNet model is a deep residual network for image classification. It introduces residual connections, which help to mitigate the vanishing gradient problem and enable the training of very deep networks.
 
-### Vision Transformer (ViT)
+### Vision Transformer (ViT) [[paper]](https://arxiv.org/abs/2010.11929) (2020)
 
 The Vision Transformer (ViT) is a deep learning architecture that applies the transformer model, originally designed for natural language processing, to image recognition tasks by dividing images into patches and processing them as sequences, achieving state-of-the-art performance on various vision benchmarks.
