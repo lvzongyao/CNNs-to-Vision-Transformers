@@ -48,8 +48,8 @@ To run the models, you can use the provided `train.py` script. Here are some exa
 This repository includes implementations of the following models:
 
 1. **AllConvNet**: An all convolutional network for image classification.
-   - Implementation: `allconvnet/allconvnet.ipynb`
-   - Python file: `allconvnet/allconvnet.py`
+   - Implementation: `models/allconvnet/allconvnet.ipynb`
+   - Python file: `models/allconvnet/allconvnet.py`
 
 2. **AlexNet**: A deep convolutional neural network for image classification.
    - Implementation: `models/alexnet.py`
@@ -68,8 +68,8 @@ This repository includes implementations of the following models:
 6. **Network in Network (NIN)**: A network that replaces traditional convolutional layers with micro neural networks.
    - Implementation: `models/nin.py`
 
-7. **HRNet**: A high-resolution network for image classification.
-   - Implementation: `models/hrnet.py`
+7. **Vision Transformer (ViT)**: A transformer-based model for image classification.
+   - Implementation: `models/vit.py`
 
 ## Directory Structure
 
@@ -94,6 +94,7 @@ cnn-classification-networks/
 │   ├── resnet.py
 │   ├── vgg.py
 │   ├── vgg_2.py
+│   ├── vit.py
 ├── train.py
 ├── utils.py
 ├── utils_for_google_drive.py
@@ -108,8 +109,8 @@ cnn-classification-networks/
 
 The AllConvNet model is an all convolutional network for image classification. It replaces traditional fully connected layers with convolutional layers, making the network more efficient and easier to train.
 
-- Implementation: `allconvnet/allconvnet.ipynb`
-- Python file: `allconvnet/allconvnet.py`
+- Implementation: `models/allconvnet/allconvnet.ipynb`
+- Python file: `models/allconvnet/allconvnet.py`
 
 ### AlexNet
 
@@ -143,8 +144,8 @@ The Network in Network (NIN) model replaces traditional convolutional layers wit
 
 - Implementation: `models/nin.py`
 
-### HRNet
+### Vision Transformer (ViT)
 
-The HRNet model is a high-resolution network for image classification. It maintains high-resolution representations throughout the network, which helps to improve the accuracy of the model.
+The Vision Transformer (ViT) model is a transformer-based model for image classification. It leverages the power of transformers to achieve state-of-the-art performance on various image classification tasks.
 
-- Implementation: `models/hrnet.py`
+- Implementation: `models/vit.py`
